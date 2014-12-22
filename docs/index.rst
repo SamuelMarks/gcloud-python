@@ -29,7 +29,7 @@ Cloud Datastore
 .. code-block:: python
 
   from gcloud import datastore
-  dataset = datastore.get_dataset('<dataset-id>')
+  dataset = datastore.get_dataset('<dataset-id>', '<email>', '<private-key-path>')
   entity = dataset.entity('Person')
   entity['name'] = 'Your name'
   entity['age'] = 25

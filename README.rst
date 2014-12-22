@@ -65,7 +65,7 @@ with the Cloud Datastore using this Client Library.
 .. code:: python
 
     from gcloud import datastore
-    dataset = datastore.get_dataset('dataset-id-here')
+    dataset = datastore.get_dataset('dataset-id-here', email, private_key_path)
     # Then do other things...
     query = dataset.query().kind('EntityKind')
     entity = dataset.entity('EntityKind')

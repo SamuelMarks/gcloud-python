@@ -68,6 +68,6 @@ you can create entities and save them::
 
   >>> from gcloud import datastore
   >>> from gcloud.datastore import demo
-  >>> dataset = datastore.get_dataset(demo.DATASET_ID)
+  >>> dataset = datastore.get_dataset(demo.DATASET_ID, demo.CLIENT_EMAIL, demo.KEY_FILENAME)
 
 ----

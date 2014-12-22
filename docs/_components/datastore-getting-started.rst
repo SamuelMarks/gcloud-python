@@ -38,7 +38,7 @@ Add some data to your dataset
 Open a Python console and...
 
   >>> from gcloud import datastore
-  >>> dataset = datastore.get_dataset('<your-dataset-id>')
+  >>> dataset = datastore.get_dataset('<your-dataset-id>', '<email>', '<private-key-path')
   >>> dataset.query().fetch()
   []
   >>> entity = dataset.entity('Person')
